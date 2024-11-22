@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="author" content="موسى عماد">
+    <meta name="keywords" charset="blogs, html5, css3, javascript">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="img/favicon.jpg" />
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+<script>
+ const backToTopButton = document.getElementById('backToTop');
+
+// Show the button when scrolled down 100px
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 100) {
+    backToTopButton.style.display = 'block';
+  } else {
+    backToTopButton.style.display = 'none';
+  }
+});
+
+// Scroll to the top when the button is clicked
+backToTopButton.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+});
+
+</script>
+<!-- <style>
+    @font-face {
+        font-family: 'Almarai-Bold';
+        src: url('fonts/Almarai-Bold.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: 'Almarai-Regular';
+        src: url('fonts/Almarai-Regular.ttf') format('truetype');
+    }
+
+
+</style> -->
+</head>
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <nav>
+              
+                <div>
+                    <a href="#"><img src="img/logo22.png" class="style-logo" /></a>
+                </div>
+                <div class="nav-bar-items">
+                    <a href="#">الرئيسية</a>
+                    <a href="#Services">خدماتنا</a>
+                    <a href="#aboutUs">من نحن </a>
+                    <a href="#contactus">اتصل بنا</a>
+                </div>
+               
+                <div>
+                    <a href="#" class="btn-contactus">تسجيل الدخول</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="style-bg-home">
+
+        <div class="styledivScreen">
+            <h1 class="TitleScreen">
+                أكبر جامعة في العالم
+            </h1>
+            <p class="TextScreen">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
+
+
+            <a href="#" class="btnScreen">
+                قم بزيارتنا لمعرفة المزيد
+            </a>
+        </div>
+
+
+    </div>
+    
+
+    <section id="Services">
+        <div  class="d-flex alige-item-center justify-content-center ">
+            <div class="section-title">
+                <h3>
+                    خدماتنا 
+                </h3>
+            </div>
+         
+    
+        </div>
+    
+        <div class="container d-flex alige-item-center justify-content-center gap-5px ">
+            <div class="Card">
+                <div class="icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="content">
+                        <h3>
+                            المكتبات
+                        </h3>
+                        <p>
+                            توفر مصادر تعليمية متنوعة تشمل الكتب والمراجع الإلكترونية وقاعات دراسية للطلاب.
+                        </p>
+                </div>
+    
+            </div>
+         
+            <div class="Card">
+                <div class="icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="content">
+                        <h3>
+                            الدعم الأكاديمي
+                        </h3>
+                        <p>
+                            يوجه الطلاب لاختيار المسارات الدراسية المناسبة وتحقيق أهدافهم التعليمية.
+                        </p>
+                </div>
+    
+            </div>
+            <div class="Card">
+                <div class="icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="content">
+                        <h3>
+                            الأنشطة الطلابية
+                        </h3>
+                        <p>
+                            تنظم فعاليات ثقافية واجتماعية لتعزيز المهارات وبناء العلاقات.
+                        </p>
+                </div>
+    
+            </div>
+            <div class="Card">
+                <div class="icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="content">
+                        <h3>
+                            مركز التوظيف
+                        </h3>
+                        <p>
+                            يساعد الطلاب على الاستعداد لسوق العمل من خلال التدريب المهني ومعارض الوظائف.
+                        </p>
+                </div>
+    
+            </div>
+    
+        </div>
+    </section>
+
+
+    <section id="aboutUs">
+        <div  class="d-flex alige-item-center justify-content-center ">
+            <div class="section-title">
+                <h3>
+                    من نحن
+                </h3>
+            </div>
+        
+
+
+         
+    
+        </div>
+    
+        <div class="container d-flex gap-5px">
+            <div class="col-lg-6">
+                <div class="content ps-0 ps-lg-5" >
+                    <div class="position-relative mt-4">
+                        <img src="img/about-2.jpg" class="img-fluid rounded-4" alt="">
+                        <a href="https://youtu.be/sMSCYS2A23I?list=RDf2si0YBV6O8" class="glightbox play-btn"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="content d-flex flex-column justify-content-center" dir="rtl">
+                    <div >
+                        <h3 style="margin: 0;">
+                            ما يٌمكننا تقديمه إليك!
+                        </h3>
+                        <p>
+                            تعتبر دائرة العلاقات العامة من أهم 
+                            الدوائر في الجامعة ،حيث أنها تعمل على تعزيز الثقة بين الجامعة وجمهورها 
+                                                </p>
+                    </div>
+                    <div class=" d-flex" style="margin-bottom: 20px;">
+                        <div class="col-md-6  content-box-a" style="border-left: 1px solid #a9a9a970;">
+                            <div class="count-box justify-content-center d-flex flex-column">
+                                <i class="fas fa-user-graduate"></i>
+                                <span   class="purecounter">
+                                    5000 +
+                                </span>
+                                <p>
+                                    <strong>
+                                        عدد الطلاب الخرجين
+                                    </strong> 
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6  content-box-a" >
+                            <div class="count-box justify-content-center d-flex flex-column">
+                                <i class="fas fa-university"></i>
+                                <span   class="purecounter">
+                                    20 +
+                                </span>
+                                <p>
+                                    <strong>
+                                        المؤسسات الداعمة
+                                    </strong> 
+                                </p>
+                            </div>
+                        </div>
+
+                     
+                      
+                    </div>
+                    <div class=" d-flex" style="border-top: 1px solid #a9a9a970;padding-top: 10px;">
+                        <div class="col-md-6  content-box-a" style="border-left: 1px solid #a9a9a970;">
+                            <div class="count-box justify-content-center d-flex flex-column">
+                                <i class="fas fa-portrait"></i>
+                                <span   class="purecounter">
+                                    80 +
+                                </span>
+                                <p>
+                                    <strong>
+                                        البرامج المعتمدة
+                                    </strong> 
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6  content-box-a" >
+                            <div class="count-box justify-content-center d-flex flex-column">
+                                <i class="fas fa-award"></i>
+                                <span   class="purecounter">
+                                    50 +
+                                </span>
+                                <p>
+                                    <strong>
+                                        الجوائز
+                                    </strong> 
+                                </p>
+                            </div>
+                        </div>
+
+                       
+
+                      
+                    </div>
+                </div>
+                <!-- End .content-->
+            </div>
+           
+        
+    </div>
+
+    </section>
+
+ 
+
+    <section id="contactus">
+        <div  class="d-flex alige-item-center justify-content-center ">
+            <div class="section-title">
+                <h3>
+                    تواصل معنا
+                </h3>
+            </div>
+         
+    
+        </div>
+    
+        <div class="container d-flex gap-5px">
+          
+            <div class="card-info-call">
+                <div class="info">
+                    <div class="address">
+                       <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                       </div>
+                       <div class="content-address">
+                        <h4>الموقع</h4>
+                        <p>فلسطين - القدس - شارع القبة</p>
+                       </div>
+                    </div>
+                    <div class="address">
+                        <div>
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <div class="content-address">
+                         <h4>البريد الإلكتروني</h4>
+                         <p>info@example.com</p>
+                        </div>
+                     </div>
+                    
+                     <div class="address">
+                        <div>
+                            <i class="fas fa-phone-volume"></i>
+                        </div>
+                        <div class="content-address">
+                         <h4>التلفون</h4>
+                         <p>+1 5589 55488 55s</p>
+                        </div>
+                     </div>
+                    
+                  
+      
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                  </div>
+            </div>
+            <div class="card-form">
+                <form>
+                  <div class="d-flex flex-column gap-5px" style="margin-top: 25px!important;">
+                      <div class="d-flex flex-row gap-5px form-contactus ">
+                          <div class="w-47">
+                              <label class="label-form required">الاسم بالكامل</label>
+                              <input type="text" class="form-control-input"required />
+                          </div>
+                          <div class="w-47">
+                              <label class="label-form required">البريد الإلكتروني</label>
+                              <input type="email" class="form-control-input"required />
+                          </div>
+                      </div>
+                      <div class="d-flex flex-row gap-5px form-contactus">
+                          <div class="w-100">
+                              <label class="label-form required">الموضوع</label>
+                              <input type="text" class="form-control-input" required/>
+                          </div>
+                      </div>
+                      <div class="d-flex flex-row gap-5px form-contactus">
+                          <div class="w-100">
+                              <label class="label-form required">الرسالة</label>
+                              <textarea class="form-control-textarea" name="message" rows="6" required></textarea>
+                          </div>
+                      </div>
+                      <div class="d-flex flex-row gap-5px form-contactus">
+                          <div class="w-100">
+                              <button type="submit" class="btn-send">
+                                  <i class="fas fa-paper-plane px-3"></i>
+                                  إرسال
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+                </form>
+            
+              </div>
+        </div>
+
+    </section>
+
+
+
+
+
+   
+
+
+ 
+
+
+    <footer class="inner-footer">
+
+
+        <div class="container d-flex alige-item-center justify-content-center gap-5px" style="margin-bottom: 150px;">
+            <div class="footer-box-1"> 
+                <div class="d-flex flex-column">
+                    <div>
+                        <a href="#"><img src="img/logo-white.png" class="style-logo" /></a>    
+                    </div>
+                    <div>
+                        <p class="text-description-footer">
+                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها
+
+                        </p>
+                    </div>
+                    <div class="social-links mt-3">
+                        <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                </div>
+            
+            </div>
+           
+            <div class="footer-box-1"> 
+                <div class="footer-title">
+                      <h4>
+                         روابط مفيدة
+                      </h4>
+                </div>
+                <ul class="footer-ul">
+                    <li>
+                        <a href="">
+                            <i class="fas fa-angle-left px-2"></i>
+                             الرئيسية
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Services">
+                            <i class="fas fa-angle-left px-2"></i>
+                            خدماتنا
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#aboutUs">
+                            <i class="fas fa-angle-left px-2"></i>
+                            من نحن
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contactus">
+                            <i class="fas fa-angle-left px-2"></i>
+                             تواصل معنا
+                        </a>
+                    </li>
+                </ul>
+            
+            </div>
+            <div class="footer-box-1"> 
+                <div class="footer-title">
+                      <h4>
+                          خدماتنا
+                      </h4>
+                </div>
+                <ul class="footer-ul">
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-angle-left px-2"></i>
+                            المكتبات
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-angle-left px-2"></i>
+                            الدعم الأكاديمي
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-angle-left px-2"></i>
+                            الأنشطة الطلابية
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-angle-left px-2"></i>
+                            مركز التوظيف
+                        </a>
+                    </li>
+                </ul>
+            
+            </div>
+            
+         
+            
+        </div>
+
+    </footer>
+
+
+
+    <div class="fixed-footer" style="background:#000;border-top:1px solid #fff!important">
+        <div class="container" style="text-align:center;">جميع الحقوق محفوظة لـ &copy; 2024 Eduation</div>
+    </div>
+</body>
+</html>
